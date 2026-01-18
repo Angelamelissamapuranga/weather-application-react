@@ -6,7 +6,11 @@ export default function App() {
     <div className="App">
       <h1>Weather app</h1>
       <footer>
-        This project was coded by Angela Mapuranga and it is open sourced
+        This project was coded by Angela Mapuranga and it is{" "}
+        <a href="https://github.com/Angelamelissamapuranga/weather-application-react">
+          {" "}
+          open sourced
+        </a>
       </footer>
     </div>
   );
