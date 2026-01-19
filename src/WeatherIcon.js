@@ -3,6 +3,7 @@ import ReactAnimatedWeather from "react-animated-weather";
 import WeatherForecast from "./WeatherForecast";
 
 export default function WeatherIcon(props) {
+  <WeatherForecast code={icon} />;
   const codeMapping = {
     "01d": "CLEAR_DAY",
     "01n": "CLEAR_NIGHT",
