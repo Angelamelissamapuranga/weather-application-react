@@ -3,7 +3,12 @@
   margin: 30px auto;
 }
 
+.App .heading {
+  text-align: center;
+}
+
 .App footer {
   font-size: 11px;
   margin: 10px 0;
+  text-align: center;
 }
