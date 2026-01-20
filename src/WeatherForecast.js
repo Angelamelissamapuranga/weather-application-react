@@ -5,14 +5,6 @@ import axios from "axios";
 import WeatherForecastDay from "./WeatherForecastDay";
 
 export default function WeatherForecast(props) {
-  function mapForecastIcon(icon) {
-    if (icon.includes("clear")) return "01d";
-    if (icon.includes("cloud")) return "03d";
-    if (icon.includes("rain")) return "10d";
-    if (icon.includes("snow")) return "13d";
-    if (icon.includes("mist")) return "50d";
-    return "01d";
-  }
   let [loaded, setLoaded] = useState(false);
   let [forecast, setForecast] = useState(null);
 
@@ -23,6 +15,7 @@ export default function WeatherForecast(props) {
   function handleResponse(response) {
     setForecast(response.data.daily);
     setLoaded(true);
+    console.log(response.data);
   }
   if (loaded) {
     return (

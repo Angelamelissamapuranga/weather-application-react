@@ -4,6 +4,7 @@ import WeatherForecast from "./WeatherForecast";
 
 export default function WeatherIcon(props) {
   <WeatherForecast />;
+
   const codeMapping = {
     "01d": "CLEAR_DAY",
     "01n": "CLEAR_NIGHT",
